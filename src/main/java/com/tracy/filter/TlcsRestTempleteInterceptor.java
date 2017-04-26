@@ -1,6 +1,6 @@
 package com.tracy.filter;
 
-import com.alibaba.fastjson.JSON;
+import com.alibaba.dubbo.common.utils.StringUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.MDC;
 import org.springframework.http.HttpHeaders;
@@ -8,7 +8,6 @@ import org.springframework.http.HttpRequest;
 import org.springframework.http.client.ClientHttpRequestExecution;
 import org.springframework.http.client.ClientHttpRequestInterceptor;
 import org.springframework.http.client.ClientHttpResponse;
-import org.springframework.util.StringUtils;
 
 import java.io.IOException;
 

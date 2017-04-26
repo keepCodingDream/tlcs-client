@@ -1,0 +1,2 @@
+referenceFilter=com.tracy.filter.DubboReferenceFilter
+serviceFilter=com.tracy.filter.DubboServiceFilter
